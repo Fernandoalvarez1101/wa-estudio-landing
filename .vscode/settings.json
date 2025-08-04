@@ -1,0 +1,22 @@
+{
+    "dart.flutterSdkPath": null,
+    "dart.projectSearchDepth": 10,
+    "dart.enableServerSnippets": true,
+    "dart.completeFunctionCalls": true,
+    "dart.showIgnoreQuickFixes": true,
+    "dart.showFixAllQuickFixes": true,
+    "dart.debugSdkLibraries": false,
+    "dart.debugExternalPackageLibraries": false,
+    "dart.debugExternalLibraries": false,
+    "dart.flutterCreateAndroidLanguage": "kotlin",
+    "dart.flutterCreateIOSLanguage": "swift",
+    "dart.analysisServerFolding": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "files.associations": {
+        "*.dart": "dart",
+        "pubspec.yaml": "yaml",
+        "analysis_options.yaml": "yaml"
+    },
+    "flutter.workspaceContainsFlutterProject": true
+}

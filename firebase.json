@@ -1,0 +1,54 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "agendawa-5d8a1",
+          "appId": "1:491106109201:android:a2fa863d9be6a77365aeb0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "agendawa-5d8a1",
+          "configurations": {
+            "android": "1:491106109201:android:a2fa863d9be6a77365aeb0",
+            "ios": "1:491106109201:ios:8f02a96cadd04e2365aeb0",
+            "macos": "1:491106109201:ios:8f02a96cadd04e2365aeb0",
+            "web": "1:491106109201:web:94bf538210ec659f65aeb0",
+            "windows": "1:491106109201:web:a406fde0df87bb2365aeb0"
+          }
+        }
+      }
+    }
+  }
+}

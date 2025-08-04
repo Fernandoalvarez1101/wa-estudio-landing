@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"name": "Wä Estudio",
+			"path": "."
+		}
+	],
+	"settings": {
+		"dart.flutterSdkPath": null,
+		"dart.projectSearchDepth": 10,
+		"dart.enableServerSnippets": true,
+		"dart.completeFunctionCalls": true,
+		"dart.showIgnoreQuickFixes": true,
+		"dart.showFixAllQuickFixes": true,
+		"dart.debugSdkLibraries": false,
+		"dart.debugExternalPackageLibraries": false,
+		"dart.debugExternalLibraries": false,
+		"dart.flutterHotReloadOnSave": "all",
+		"dart.flutterCreateAndroidLanguage": "kotlin",
+		"dart.flutterCreateIOSLanguage": "swift",
+		"files.associations": {
+			"*.dart": "dart"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"dart-code.dart-code",
+			"dart-code.flutter"
+		]
+	}
+}

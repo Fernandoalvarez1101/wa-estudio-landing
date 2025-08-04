@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de eliminación de cuenta</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            border: 1px solid #e1e8ed;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #008080;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .icon {
+            font-size: 4em;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .content {
+            margin-bottom: 40px;
+        }
+
+        .explanation {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            border-left: 4px solid #008080;
+        }
+
+        .contact-email {
+            font-size: 1.2em;
+            color: #008080;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .contact-email:hover {
+            color: #20B2AA;
+        }
+
+        .delete-button {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        .delete-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+            background: linear-gradient(135deg, #ee5a52, #dc4c64);
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            color: #856404;
+        }
+
+        .warning-box strong {
+            color: #d63031;
+        }
+
+        .steps {
+            text-align: left;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .steps h3 {
+            color: #008080;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .steps ol {
+            padding-left: 20px;
+        }
+
+        .steps li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #e1e8ed;
+            margin-top: 40px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .card {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .icon {
+                font-size: 3em;
+            }
+
+            .explanation {
+                font-size: 1em;
+            }
+
+            .delete-button {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .delete-button {
+                width: 100%;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <span class="icon">🗑️</span>
+                <h1>Eliminación de cuenta y datos</h1>
+            </div>
+
+            <div class="content">
+                <p class="explanation">
+                    Si deseas eliminar permanentemente tu cuenta de Wä Estudio y todos los datos asociados, 
+                    puedes solicitar la eliminación completa contactando con nuestro equipo de soporte.
+                </p>
+
+                <div class="warning-box">
+                    <strong>⚠️ Advertencia:</strong> Esta acción es <strong>irreversible</strong>. 
+                    Se eliminarán todos tus datos, clientes, citas y configuraciones de forma permanente.
+                </div>
+
+                <div class="contact-info">
+                    <p><strong>📧 Dirección de contacto:</strong></p>
+                    <a href="mailto:waestudio1202@gmail.com" class="contact-email">
+                        waestudio1202@gmail.com
+                    </a>
+                </div>
+
+                <div class="steps">
+                    <h3>📋 Proceso de eliminación:</h3>
+                    <ol>
+                        <li>Haz clic en el botón de abajo para enviar tu solicitud</li>
+                        <li>Incluye tu email registrado y motivo de eliminación</li>
+                        <li>Recibirás confirmación en 24-48 horas</li>
+                        <li>Tu cuenta será eliminada permanentemente</li>
+                    </ol>
+                </div>
+
+                <a href="mailto:waestudio1202@gmail.com?subject=Eliminar cuenta&body=Hola,%0D%0A%0D%0ASolicito la eliminación completa de mi cuenta de Wä Estudio.%0D%0A%0D%0AEmail registrado: [Ingresa tu email aquí]%0D%0AMotivo: [Opcional]%0D%0A%0D%0AEntiendo que esta acción es irreversible.%0D%0A%0D%0AGracias." 
+                   class="delete-button">
+                    📧 Solicitar eliminación de cuenta
+                </a>
+
+                <div class="warning-box" style="margin-top: 25px;">
+                    <strong>💡 Alternativa:</strong> Si solo necesitas una pausa temporal, 
+                    puedes cerrar sesión y volver cuando quieras. Tus datos se mantendrán seguros.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Wä Estudio - Gestión profesional de negocios de servicios</p>
+    </footer>
+</body>
+</html>

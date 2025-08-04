@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491106109201",
+    "project_id": "agendawa-5d8a1",
+    "storage_bucket": "agendawa-5d8a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491106109201:android:a2fa863d9be6a77365aeb0",
+        "android_client_info": {
+          "package_name": "com.waestudio.agenda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3VUi6IphkLdKFvecSUcolCd-6mF5Exog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491106109201:android:b186bedb0b0ee9aa65aeb0",
+        "android_client_info": {
+          "package_name": "com.example.bienvenida_wa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3VUi6IphkLdKFvecSUcolCd-6mF5Exog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
